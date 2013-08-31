@@ -345,7 +345,7 @@ div.main p.footnote a {
 /* sidebar */
 div.sidebar {
 	background-color: #900;
-	background-image: url(rubima_logo_left.png); background-repeat: no-repeat;
+	background: url(rubima_logo_left.png) top no-repeat, url(rubima_sidebar.png) bottom repeat-y;
 	position: absolute;
 	top: 0em;
 	left: 0px;
