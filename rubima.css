@@ -14,8 +14,7 @@ Copyright 2004 (C) by Yamamoto Dan <dan@dgames.jp>
 
 
 body {
-	margin-top: 0px;
-	margin-left: 0.4em;
+	margin: 0;
 	color: #000;
 	background-color: #fff;
 }
@@ -116,6 +115,12 @@ div.comment {
 div.trackbacks {
 	font-size: small;
 	display: inline;
+}
+
+/* whole-contents */
+div.whole-contents {
+	position: relative;
+	overflow: hidden;
 }
 
 /* main */
@@ -350,10 +355,11 @@ div.sidebar {
 	top: 0em;
 	left: 0px;
 	width: 150px;
-	padding-top: 148px;
-	padding-bottom: 5em;
 	color: #fee;
 	word-break: break-all;
+	padding-top: 148px;
+	padding-bottom: 32768px;
+	margin-bottom: -32768px;
 }
 
 div.sidebar h4 {
