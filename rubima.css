@@ -637,3 +637,22 @@ div.note {
 	font-size: small;
 	margin-bottom: 0.5em;
 }
+
+/* from append-css */
+div.preview {
+  font-size: medium;
+  background-color: #fcc;
+  padding-top: 0.5em;
+}
+div.main p img.right {
+  float: right;
+}
+ins.added {
+  background-color: #fbb;
+}
+del.deleted {
+  background-color: #ccc;
+}
+div.sidebar input[type=text] {
+  width:123px;
+}
