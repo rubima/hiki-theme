@@ -358,8 +358,7 @@ div.sidebar {
 	color: #fee;
 	word-break: break-all;
 	padding-top: 148px;
-	padding-bottom: 32768px;
-	margin-bottom: -32768px;
+	padding-bottom: 5em;
 }
 
 div.sidebar h4 {
