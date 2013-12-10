@@ -15,7 +15,7 @@ Copyright 2004 (C) by Yamamoto Dan <dan@dgames.jp>
 
 body {
 	margin: 0;
-	color: #000;
+	color: #1e1e1e;
 	background-color: #fff;
 }
 
@@ -46,23 +46,23 @@ h1 {
 	font-size: large;
 /*	text-align: right;*/
 /*	color: #888;*/
-	border-color: #000;
+	border-color: #333333;
 	border-width: 0px 0px 1px 0px;
 	border-style: solid;
 }
 
 div.body a {
-	color: #0000ee;
+	color: #AD273F;
 	background-color: transparent;
 }
 
 div.body a:visited {
-	color: #000095;
+	color: #4c0b00;
 	background-color: transparent;
 }
 
 div.body a:hover {
-	color: #ff6835;
+	color: #ff2600;
 	background-color: transparent;
 }
 
@@ -156,7 +156,7 @@ div.main h2 {
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
 	color: #ffffff;
-	background-color: #000000;
+	background-color: #696969;
 }
 
 div.main p img {
